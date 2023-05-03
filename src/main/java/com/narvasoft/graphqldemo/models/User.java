@@ -1,4 +1,4 @@
-package com.narvasoft.graphqldemo;
+package com.narvasoft.graphqldemo.models;
 
 import io.leangen.graphql.annotations.GraphQLQuery;
 import jakarta.persistence.*;
@@ -75,7 +75,6 @@ public class User {
                 ", nombre='" + nombre + '\'' +
                 ", apellido='" + apellido + '\'' +
                 ", email='" + email + '\'' +
-
                 '}';
     }
 }
